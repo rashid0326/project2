@@ -1,0 +1,80 @@
+body{
+  background-color:#5808BC;
+}
+
+h1, h2{
+  color: Bold Black;
+  margin: 0;
+  position: relative;
+  top: 10%
+}
+
+p{
+  color:white;
+  left: 5%;
+  position: relative;
+  font-size: large;
+}
+
+nav{
+  overflow: hidden;
+}  
+
+nav ul{
+  background: linear-gradient(to right, #AEA7F1, #8DDB53, #FD3754);
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-color: black;
+  z-index: 10;
+}
+
+nav ul li{
+  float: left;
+  width: 33.33%;
+}
+
+nav ul li a{
+  color: black;
+  display: block;
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: green;
+  background-color: black;
+}
+
+.audioWave{
+  font-family: 'Audiowide', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+div{
+  padding: 10% 10%;
+}
+
+footer{
+  width: 50%;
+  border-style:dashed;
+  border-top-color: #8DDB53;
+  border-left-color: #AEA7F1;
+  border-bottom-color: #FD3754;
+  border-right-color: #AEA7F1;
+}
+
+a{
+  color: #AEA7F1;  
+}
+
+.center{
+  text-align: center;
+}
