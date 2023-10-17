@@ -26,7 +26,7 @@ nav ul{
   position: fixed;
   margin: 0;
   padding: 0;
-  float: left;
+  float: center;
   background-color: black;
   z-index: 10;
 }
