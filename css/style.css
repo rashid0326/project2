@@ -39,9 +39,9 @@ nav ul li{
 nav ul li a{
   color: black;
   display: block;
-  padding: 25px 10px;
+  padding: 15px 10px; /* Decreased padding */
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em; /* Decreased font size */
   text-decoration: none;
 }
 
@@ -49,6 +49,7 @@ nav ul li a:hover{
   color: green;
   background-color: black;
 }
+
 
 .audioWave{
   font-family: 'Audiowide', sans-serif;
