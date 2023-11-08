@@ -27,10 +27,11 @@ header {
   color: #FFF; /* Header title color */
 }
 
-/* Clean and Simple Navigation Bar Styles with a bigger size */
+/* Clean and Simple Navigation Bar Styles with a different color and bigger size */
 nav {
-  background: #0077B6; /* Navigation bar background color */
-  padding: 20px; /* Increase padding for a bigger size */
+  background: #00537E; /* New Navigation bar background color */
+  text-align: center; /* Center the navigation bar */
+  padding: 30px; /* Increase padding for a bigger size */
 }
 
 nav ul {
