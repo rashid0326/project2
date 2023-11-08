@@ -6,120 +6,81 @@ html, body, p {
 
 /* Global styles */
 body {
-  font-family: "Courier New", monospace;
+  font-family: "Arial", sans-serif;
   font-size: 16px;
-  color: black;
+  color: #333; /* Text color */
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #0077B6; /* Link color */
 }
 
-/* Smaller and Futuristic Navigation Bar Styles */
+/* Clean and Simple Header Styles */
+header {
+  background: #111; /* Header background color */
+  padding: 20px;
+}
+
+.header-title {
+  font-size: 24px;
+  color: #FFF; /* Header title color */
+}
+
+/* Clean and Simple Navigation Bar Styles */
+nav {
+  background: #0077B6; /* Navigation bar background color */
+  padding: 10px;
+}
+
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: linear-gradient(110deg, #0D224B, #031A38); /* Change to your preferred futuristic colors */
-  width: 100%;
-  height: 40px; /* Adjust the height as needed */
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
-nav ul li {
-  float: left;
-  width: 33.33%;
+nav li {
+  display: inline;
+  margin-right: 20px; /* Adjust the spacing as needed */
 }
 
-nav ul li a {
-  display: block;
-  text-align: center;
-  padding: 10px 0; /* Reduce vertical padding */
-  color: white;
-  font-size: 16px; /* Smaller font size */
-  font-family: 'Arial', sans-serif; /* A more modern font */
-}
-
-nav li a:hover {
-  background-color: #05A0E5; /* Change to your preferred hover color */
-  color: white;
-}
-
-/* Add a subtle border to the navigation bar */
-nav ul::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Create a futuristic border at the bottom of the navigation bar */
-nav ul::before {
-  content: "";
-  height: 2px; /* Adjust the border thickness as needed */
-  background-color: #05A0E5; /* Border color */
-  display: block;
+nav li a {
+  color: #FFF; /* Navigation bar link color */
 }
 
 /* Page content styles */
-#main {
-  padding: 10% 20%;
-  background-color: white;
+.content {
+  margin: 20px;
 }
 
-#footer {
-  clear: left;
-  background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);
-  font-size: 20px;
-  padding: 5%;
-  color: white;
-  font-family: 'Young Serif', serif;
+/* Clean and Simple Footer Styles */
+footer {
+  background: #111; /* Footer background color */
+  padding: 20px;
+  color: #FFF; /* Footer text color */
 }
 
-hr {
-  border: 5px solid black;
+/* Create a futuristic border at the bottom of the page */
+.page-border {
+  content: "";
+  height: 2px; /* Border thickness */
+  background-color: #0077B6; /* Border color */
+  display: block;
 }
 
-/* Image and iframe styles */
-.img, iframe {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  position: static;
-  border: 0;
+/* Add hover styles for links */
+a:hover {
+  color: #00537E; /* Hover color for links */
 }
 
-/* Main content and text alignment styles */
-#main {
-  float: left;
-  width: 45%;
-  border-radius: 50%;
-  margin: 5%;
+/* Futuristic Button Styles */
+.button {
+  background: #0077B6; /* Button background color */
+  color: #FFF; /* Button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.text {
-  float: right;
-  width: 50%;
-  margin: 0;
-}
-
-/* Spacing styles */
-.spacing {
-  margin-bottom: 3%;
-  margin-top: 3%;
-}
-
-/* Clear floats */
-#wrap {
-  clear: both;
-}
-
-/* Headings styles */
-h1, h2, h3 {
-  font-family: 'Young Serif', serif;
-  font-size: 40px;
-  line-height: 170%;
+.button:hover {
+  background: #00537E; /* Hover color for the button */
 }
