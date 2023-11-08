@@ -27,9 +27,9 @@ header {
   color: #FFF; /* Header title color */
 }
 
-/* Clean and Simple Navigation Bar Styles with a different color */
+/* Clean and Simple Navigation Bar Styles */
 nav {
-  background: #c05f5f; /* Updated Navigation bar background color */
+  background: #c05f5f; /* Navigation bar background color */
   text-align: center; /* Center the navigation bar */
   padding: 30px; /* Increase padding for a bigger size */
 }
@@ -47,9 +47,15 @@ nav li a {
   color: #FFF; /* Navigation bar link color */
 }
 
+/* Container to make content full-width */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* Page content styles with a new background color */
 .content {
-  margin: 20px;
   background: #3fccea; /* Updated page content background color */
 }
 
@@ -58,6 +64,7 @@ footer {
   background: #333; /* Footer background color */
   padding: 20px;
   color: #FFF; /* Footer text color */
+  text-align: center; /* Center the text in the footer */
 }
 
 /* Create a futuristic border at the bottom of the page */
