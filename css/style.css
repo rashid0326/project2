@@ -22,12 +22,13 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(110deg, #F27B35, #F272D0, #F25C78);
+  background: linear-gradient(110deg, #3C8DAD, #0A415C);
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
 }
+
 
 nav ul li {
   float: left;
